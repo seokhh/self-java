@@ -8,19 +8,19 @@ public class Main {
         int z;
 
         System.out.println("--------------------");
-        x++;
-        ++x;
-        System.out.println("x= " + x); //x++: 10 + 1 = 11, ++X: 11+1 = 12
+        x++; // 10 + 1 = 11
+        ++x; // 11 + 1 = 12
+        System.out.println("x= " + x); // 12
 
         System.out.println("--------------------");
-        y--;
-        --y;
-        System.out.println("y= " + y); // y--: 10 - 1 = 9, --y: 9 - 1 = 8
+        y--; // 10 - 1 = 9
+        --y; // 9 - 1 = 8
+        System.out.println("y= " + y); // 8
 
         System.out.println("--------------------");
         z = x++;
-        System.out.println("z= " + z); // 12 = 13
-        System.out.println("x= " + x); // 13
+        System.out.println("z= " + z); // 12 = z
+        System.out.println("x= " + x); // 12 + 1 = 13
 
         System.out.println("--------------------");
         z = ++x;
