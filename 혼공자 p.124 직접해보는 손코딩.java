@@ -7,11 +7,11 @@ public class Main {
         System.out.println("result= " + result);
         result -= 5;
         System.out.println("result= " + result);
-        result += 10;
+        result *= 3;
         System.out.println("result= " + result);
-        result -= 12;
+        result /= 5;
         System.out.println("result= " + result);
-        result -= 3;
+        result %= 3;
         System.out.println("result= " + result);
     }
 }
